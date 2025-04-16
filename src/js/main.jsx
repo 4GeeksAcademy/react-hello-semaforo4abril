@@ -8,11 +8,9 @@ import "bootstrap"
 // index.css'
 import '../styles/index.css'
 
+
 // components
 import Home from './components/Home';
+import TrafficLight from "./components/Home.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById('root')).render(<Home/>);
